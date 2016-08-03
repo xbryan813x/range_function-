@@ -1,0 +1,14 @@
+// The following function will print all the numbers from "start" to "end".
+// if "start" is greater than "end", it will print "Bad Range".
+
+function printRange(start, end){
+  if (start > end){
+    console.log("Bad Range");
+  }
+  for (var i = start; i <= end; i++){
+    console.log(i);
+  }
+}
+
+printRange(22,24);
+printRange(5,1);
